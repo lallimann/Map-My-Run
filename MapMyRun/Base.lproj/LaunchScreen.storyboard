@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="NewsGothicStd.otf">
+            <string>NewsGothicStd</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LOADING" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gF6-PH-U4g">
+                                <rect key="frame" x="112" y="274" width="96" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="gF6-PH-U4g" secondAttribute="height" multiplier="32:7" id="rgd-ad-gUa"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="NewsGothicStd" family="News Gothic Std" pointSize="17"/>
+                                <color key="textColor" red="0.83276337389999999" green="0.59919637439999995" blue="0.19623610380000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.2555009126663208" green="0.24029883742332458" blue="0.2396942675113678" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="gF6-PH-U4g" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Vpn-0m-MyD"/>
+                            <constraint firstItem="gF6-PH-U4g" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="254" id="kEv-NU-ZL0"/>
+                            <constraint firstItem="gF6-PH-U4g" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="lEL-Fn-gUD"/>
+                            <constraint firstItem="gF6-PH-U4g" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="112" id="uic-gr-RYV"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.5" y="375"/>
+        </scene>
+    </scenes>
+</document>
